@@ -42,10 +42,12 @@ header {
 
 .title {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   color: #eee;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 5rem;
 }
 
 .title h1 {
@@ -68,8 +70,8 @@ header {
 
 .slides {
   display: flex;
+  flex: 2;
   align-items: center;
-  width: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -86,6 +88,7 @@ header {
   background-size: cover;
   border-radius: 8px;
   cursor: pointer;
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.3);
 }
 
 .slide:nth-child(1) {
